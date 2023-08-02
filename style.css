@@ -1,0 +1,27 @@
+nav div a:hover {
+    background-color: rgb(232, 123, 165);
+    transition: 0.4s;
+}
+
+div h1{
+    animation-name: dal;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+@keyframes dal{
+    from{
+        background-color: rgb(159, 221, 246);
+        width: 50%;
+    }
+    to{
+        background-color: rgb(146, 243, 146);
+        width: 100%;
+    }
+}
+
+
+
