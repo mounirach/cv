@@ -3,7 +3,7 @@ nav div a:hover {
     transition: 0.4s;
 }
 
-div h1{
+div h3{
     animation-name: dal;
     animation-duration: 5s;
     animation-delay: 1s;
@@ -15,7 +15,7 @@ div h1{
 @keyframes dal{
     from{
         background-color: rgb(159, 221, 246);
-        width: 50%;
+        width: 60%;
     }
     to{
         background-color: rgb(146, 243, 146);
