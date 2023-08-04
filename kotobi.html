@@ -12,7 +12,7 @@
     <link href="style.css" rel="stylesheet"/>
 
 </head>
-<body dir="rtl" style="background-color: rgb(226, 252, 252); ">
+<body dir="rtl" style="background-color: rgb(226, 252, 252); width: 100%;">
   <!--navbar-->   
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
@@ -50,11 +50,9 @@
             id="navbarDropdown"
             role="button"
             data-mdb-toggle="dropdown"
-            aria-expanded="false"
-          >
+            aria-expanded="false">
             Dropdown
           </a>-->
-          
           <!-- Dropdown menu -->
           <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
@@ -70,56 +68,50 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled"
-            >Disabled</a
-          >
+          <a class="nav-link disabled">Disabled</a>
         </li>-->
       </ul>
     </div>
   </div>
 </nav>
 <br>
-<!--هدفنا-->
-<div><img style="margin: auto; display: flex; justify-content: center; align-items: center;" src="4.jpg" alt=""></div>
+
+<div class="card bg-light mb-3" style="max-width: 540px; margin: 0 auto;">
+  <div class="card-header"><h3 class="card-title" style="color: rgb(230, 43, 115); text-align: center;"> كُـتبي</h3></div></div><br>
+
+<!--آية-->
+<div><img style="margin: auto; display: flex; align-items: center;" src="4.jpg" alt=""></div>
 <br>
+
 <!--عرض الكتابان-->
-<article style="margin: auto; display: flex; justify-content: center; align-items: center;" class="row row-cols-1 row-cols-md-2">
-
-<div class=" mb-3 text-center" style="width: 40px; height: 440px;"></div>
-
-<div class="card text-bg-light" style="width: 340px; height: 471px;">
+<div class="card text-bg-light" style="width: 340px; height: 471px; margin: auto; display: flex; align-items: center;">
     <div class="card-title" style="text-align: center; margin: 10px;"><h6>الكتاب الأول</h6></div>
     <img src="r.jpg" class="card-img-top" style="height: 340px; max-width: 270px; margin: 5px auto; display: flex; justify-content: center; align-items: center;" alt="...">
 <div class="card-title" style="text-align: center;"><a href="#n1" style="font-weight: bold; color: rgb(222, 23, 23);">تفاصيل عن الكتاب</a></div>
 <!--<div class="card-title" style="text-align: center;">
   <button style="background: rgba(0, 0, 255, 0.642); color: aliceblue; border-radius:10px; border: none" type="button" onclick="alert('تواصل معنا عبر واتساب **********. سعـر كتاب الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار: 1300 دج + سعر التوصيل. اكتب رسالة فيها عنوان الكتاب المطلوب، ثم اسمك ولقبك ورقم هاتفك وعنوانك لاسيما الولاية والدائرة والبلدية. وحين تصلنا رسالتك سنرد عليك في أقل من 24 ساعة.')"><h6>احصل على نسخة</h6></button>
 </div>-->
-</div>
+</div><br>
 
-<div class=" mb-3 text-center" style="width: 180px; height: 440px;"></div>
 
-<div class="card text-bg-light" style="width: 340px; height: 471px;">
+<div class="card text-bg-light" style="width: 340px; height: 471px; margin: auto; display: flex; align-items: center;">
     <div class="card-title" style="text-align: center; margin: 10px;"><h6>الكتاب الثاني</h6></div>
     <img src="m.jpg" class="card-img-top" style="height: 340px; max-width: 270px; margin: 5px auto; display: flex; justify-content: center; align-items: center;" alt="...">
     <div class="card-title" style="text-align: center;"><a href="#n2" style="font-weight: bold; color: rgb(222, 23, 23);">تفاصيل عن الكتاب</a></div>
 <!--<div class="card-title" style="text-align: center;">
 <button style="background: rgba(0, 0, 255, 0.642); color: aliceblue; border-radius:10px; border: none;" type="button" onclick="alert('تواصل معنا عبر واتساب **********. سعـر كتاب محاضرات في نظريات القراءة والتلقي: 800 دج + سعر التوصيل. اكتب رسالة فيها عنوان الكتاب المطلوب، ثم اسمك ولقبك ورقم هاتفك وعنوانك لاسيما الولاية والدائرة والبلدية. وحين تصلنا رسالتك سنرد عليك في أقل من 24 ساعة.')"><h6> احصل على نسخة</h6></button>    
 </div>-->
-</div>
-
-<div class=" mb-3 text-center" style="width: 40px; height: 440px;"></div>
-</article>
-<br>
+</div><br>
 
 <!--صورة الكتابين معا-->
 <div><img style="margin: auto; display: flex; justify-content: center; align-items: center;" src="33.jpg" alt=""></div>
 <br>
 
 <!--معلومات عن الكتابين-->
-<article class="card mb-3 text-center" style="width: 800px; height: 400px; margin: auto; display: flex; justify-content: center; align-items: center;">
+<article class="card mb-3 text-center" style="width: 550px; height: 400px; margin: auto; display: flex; justify-content: center; align-items: center;">
   <div class="row g-0">
     <div class="card-body">
-        <h3 id="n1" class="card-title">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار</h3><br>
+        <h4 id="n1" class="card-title" style="color: rgb(230, 43, 115);">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار</h4><br>
         <h6> مؤلف علمي</h6>
         <p class="card-text"> يدرس الكتاب علاقة الأدب -بصفة عامة- بالسياسة، وعلاقة الرواية -بصفة خاصة- بالسياسة، ويقدم تصورا منهجيا للمقاربة الموضوعاتية. يتم تحليل المضمون السياسي في روايات الطاهر وطار وفق مقاربة موضوعاتية، ومن خلالها يتم طرح تساؤلات عديدة حول ثنائية الرواية والسياسة.
         </p>
@@ -127,10 +119,10 @@
   </div>
 </article>
 
-<article class="card mb-3 text-center" style="width: 800px; height: 400px; margin: auto; display: flex; justify-content: center; align-items: center;">
+<article class="card mb-3 text-center" style="width: 540px; height: 400px; margin: auto; display: flex; justify-content: center; align-items: center;">
   <div class="row g-0">
       <div class="card-body">
-        <h3 id="n2" class="card-title">كتاب: محاضرات في نظريات القراءة والتلقي</h3><br>
+        <h4 id="n2" class="card-title" style="color: rgb(230, 43, 115);">كتاب: محاضرات في نظريات القراءة والتلقي</h4><br>
         <h6>مؤلف بيداغوجي</h6>
         <p class="card-text">يناقش الكتاب محاور هامة من نظريات القراءة والتلقي، حسب مجهودات نقاد غربيين: بارت، تودوروف، جينيت، لينهارت، غولدمان، باختين، زيما، ماهيو، إيزر، ياوس... ومن خلال مجهودات النقاد في هذا الميدان يتم تقديم العديد من المفاهيم؛ مثل: القراءة، القراءة الراغبة، سوسيولوجيا القراءة، القراءة السوسيونقدية، جمالية التلقي، القارئ، القارئ المستهلك، القارئ العاشق، الجمهور الوسط، تعدد القراءات، القارئ الضمني... فالكتاب زاخر بقضايا النقد في مجال نظريات القراءة والتلقي، والمفاهيم الواردة في هذا الإطار، ومجهودات النقاد في ذلك؛ ما يقدم أبعاد التقاء هذه النظريات مع مقولات ما بعد الحداثة.</p>
       </div>
