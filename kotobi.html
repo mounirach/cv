@@ -16,19 +16,42 @@
     <link href="style.css" rel="stylesheet"/>
 
     <style>
-    /*تجاوب مع الهاتف*/
-    @media screen and (max-width:600px){
-      #p1 {
-        font-size: 0.5rem;
-      }
       body{
-        background: #dd4b39;
+        background-color: rgb(228, 224, 224);
       }
+
+      article{
+        max-width: 80%;  margin: auto; display: flex; justify-content: center; align-items: center;
+      }
+
+      #p1{
+        color:rgb(3, 3, 182); font-size: 2.5rem;
+      }
+
+      #book{
+        display:inline-block; width: 510px; height: 490px; margin: auto;  align-items: center;
+      }
+
+    /*تجاوب مع الهاتف*/
+    @media screen and (max-width:600px) {
+      #p1 {
+        font-size: 1.25rem;
+      }
+
+      article{
+        max-width: 97%;
+      }
+     
+      #book{
+        display:block; width: 88%; height: 490px; margin-top: 12px;
+      }
+      
     }
     </style>
 </head>
 
-<body dir="rtl" style="background-color: rgb(228, 224, 224); ">
+<body dir="rtl">
+  
   <div style="margin:1% 2%;">
     
     
@@ -77,9 +100,9 @@
 
     <center>
 <div>
-<p id="p1" style="color:rgb(3, 3, 182); font-size: 2.5rem;">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار
+<p id="p1">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار
 </p></div>
-<div><p id="p1" style="color:rgb(3, 3, 182); font-size: 2.5rem;">كتاب: محاضرات في نظريات القراءة والتلقي</p></div></center><br>
+<div><p id="p1">كتاب: محاضرات في نظريات القراءة والتلقي</p></div></center><br>
 <!--هدفنا-->
 
   <center>  <img src="hadaf.png" alt="" style="width:20%;"></center>
@@ -91,7 +114,7 @@
 
 <!--عرض الكتابين-->
 <center>
-<div class="card text-bg-light" style="display:inline-block; width: 400px; height: 490px; margin: auto;  align-items: center;">
+<div id="book" class="card text-bg-light">
     <div class="card-title" style="text-align: center; margin: 10px;"><h6>الكتاب الأول</h6></div>
     <img src="r.jpg" class="card-img-top" style="height: 340px; max-width: 270px; margin: 5px auto; display: flex; justify-content: center; align-items: center;" alt="...">
 <div class="card-title" style="text-align: center;"><a href="#n1" style="font-weight: bold; color: rgb(222, 23, 23);font-size: 1.25em; ">تفاصيل عن الكتاب</a></div>
@@ -103,7 +126,7 @@
 </div>
 
 
-<div class="card text-bg-light" style="display:inline-block; width: 400px; height: 490px; margin: auto;  align-items: center;">
+<div id="book" class="card text-bg-light">
     <div class="card-title" style="text-align: center; margin: 10px;"><h6>الكتاب الثاني</h6></div>
     <img src="m.jpg" class="card-img-top" style="height: 340px; max-width: 270px; margin: 5px auto; display: flex; justify-content: center; align-items: center;" alt="...">
 <div class="card-title" style="text-align: center;"><a href="#n2" style="font-weight: bold; color: rgb(222, 23, 23); font-size: 1.25em;">تفاصيل عن الكتاب</a></div>
@@ -121,7 +144,7 @@
 <br><hr><br>
 
 <!--معلومات عن الكتابين-->
-<article class="card mb-3 text-center" style=" max-width: 80%;  margin: auto; display: flex; justify-content: center; align-items: center;">
+<article class="card mb-3 text-center">
   <div class="row g-0">
     <div class="card-body">
         <h3 id="n1" class="card-title" style="color: rgb(230, 43, 115);">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار</h3><br>
@@ -134,7 +157,7 @@
 
 <br><hr><br>
 
-<article class="card mb-3 text-center" style="max-width: 80%;  margin: auto; display: flex; justify-content: center; align-items: center;">
+<article class="card mb-3 text-center">
   <div class="row g-0">
       <div class="card-body">
         <h3 id="n2" class="card-title" style="color: rgb(230, 43, 115);">كتاب: محاضرات في نظريات القراءة والتلقي</h3><br>
