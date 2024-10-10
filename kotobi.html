@@ -25,7 +25,11 @@
       }
 
       #p1{
-        color:rgb(3, 3, 182); font-size: 2.5rem;
+        color:rgb(3, 3, 182); font-size: 1.75rem;
+      }
+
+      #p2{
+        color:rgb(88, 1, 59); font-size: 1.5rem;
       }
 
       #book{
@@ -40,9 +44,16 @@
         width:70%; height: 350px;
       }
 
+      #kt{
+        background:white; width: 70%;
+      }
+
     /*تجاوب مع الهاتف*/
     @media screen and (max-width:600px) {
       #p1 {
+        font-size: 1.25rem;
+      }
+      #p2 {
         font-size: 1.25rem;
       }
 
@@ -60,6 +71,10 @@
 
       #wajiha{
         width:88%; height: 240px;
+      }
+
+      #kt{
+        background:white; width: 98%;
       }
       
     }
@@ -113,12 +128,23 @@
     <span><img id="wajiha" src="site.jpg"></span>
   </center>
     <br>
+    
+<!-- عنوان الصفحة-->
+<center>
+  <div><h2 style="text-shadow: 2px 2px rgb(204, 171, 171); color: rgb(211, 25, 25); text-align: center; background: rgb(248, 244, 244); width: 50%; padding: 11px;  font-family: Tahoma;"> كُتــب منشـــورة:</h2>
+  </div><br>
+</center> 
+    
+<center>
+<div id="kt">
+  <div><p id="p1">كتاب1: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار</p></div>
+  <div><p id="p1">كتاب2: محاضرات في نظريات القراءة والتلقي</p></div>
+  <div><p id="p2"> تأليف: د. منيــرة شــرقـي</p></div>
+</div>
+</center>
 
-    <center>
-<div>
-<p id="p1">كتاب: الرواية السياسية مقاربة موضوعاتية في روايات الطاهر وطار
-</p></div>
-<div><p id="p1">كتاب: محاضرات في نظريات القراءة والتلقي</p></div></center><br>
+<br>
+
 <!--هدفنا-->
 
   <center>  <img id="hdf" src="hadaf.png" alt=""></center>
