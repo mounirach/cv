@@ -40,14 +40,28 @@
         clear: both;
       }
 
-
-
-
       .table {
         border-collapse : collapse;
       }
       .table , th, td {
         border : 1px solid black;
+      }
+      #mn{
+        text-shadow: 2px 2px rgb(204, 171, 171); color: rgb(13, 36, 24); text-align: center; background: rgb(248, 244, 244); width: 30%; padding: 11px;  font-family: Tahoma; font-size: 1.75rem;
+      }
+      #tmkh{
+        margin: 25px; width: 62%; margin: auto;text-align: center;
+      }
+
+    /*تجاوب مع الهاتف*/
+    @media screen and (max-width:600px) {
+
+      #mn{
+        width: 75%;
+      }
+      #tmkh{
+        width: 92%;
+      }
       }
 
   </style>
@@ -119,11 +133,11 @@
 <!--قائمة مختصرة-->
 
   <main style="width:98%; padding: 50px 0px">
-    <center><h2 style="text-shadow: 2px 2px rgb(204, 171, 171); color: rgb(13, 36, 24); text-align: center; background: rgb(248, 244, 244); width: 30%; padding: 11px;  font-family: Tahoma; font-size: 1.75rem;">1- قائمة مختصرة مُعَدَّة للطّلبة:
+    <center><h2 id="mn">1- قائمة مختصرة مُعَدَّة للطّلبة:
     </h2><br>
   
     
-    <table class="table" style="margin: 25px; width: 62%; margin: auto;text-align: center;">
+    <table class="table" id="tmkh">
       <thead> 
         <tr class="table-secondary">
           <th style="width: 28%; vertical-align: middle;"> المــؤلِّــف</th>
@@ -601,6 +615,15 @@
         role="button">
           <i class="fab fa-youtube"></i>
       </a>
+
+      <!-- google scholar -->
+    <a class=" text-white btn-floating m-1"
+    style="background-color: ;"
+    href="https://scholar.google.com/citations?user=T8r9vQkAAAAJ&hl=fr&oi=ao"
+    target="_blank"
+    role="button">
+      <img src="Google_Scholar_logo.png" style="width:35px; height:35px;" alt="">
+  </a>
 
       </section>
     </div>
